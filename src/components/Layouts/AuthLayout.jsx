@@ -1,6 +1,9 @@
+import "../../App.css"
+
 const AuthLayout = (props) => {
   const { children , title } = props;
     return (
+      <div className="flex justify-center min-w-screen items-center gap-4">
       <div className="w-full max-w-xs">
         <h1 className="text-3xl font-bold mb-2 text-blue-400">
           {title}
@@ -9,6 +12,7 @@ const AuthLayout = (props) => {
           Welcome, please enter your details
           </p>
           {children}
+      </div>
       </div>
     )
 }
