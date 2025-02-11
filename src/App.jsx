@@ -1,7 +1,6 @@
 import './App.css'
 import RegisterPage from './Pages/register';
 // import LoginPage from './Pages/login';
-import React from 'react';
 
 
 function App() {

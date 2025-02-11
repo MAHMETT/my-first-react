@@ -22,7 +22,7 @@ const FormLogin = () => {
           Name="email"
         />
           <Button
-            classname="w-full bg-blue-500"
+            className="w-full bg-blue-500"
             >
               Login
               </Button>
