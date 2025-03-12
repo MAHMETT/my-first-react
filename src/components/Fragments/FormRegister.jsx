@@ -8,19 +8,19 @@ const FormRegister = () => {
             label="Fullname" 
             type="text" 
             placeholder="Insert your name here..."
-            Name="fullname"
+            name="fullname"
         />
         <InputForm
             label="Email" 
             type="email" 
             placeholder="example@gmail.com"
-            Name="email"
+            name="email"
         />
         <InputForm
             label="Password" 
             type="password" 
             placeholder="Enter your password"
-            Name="password"
+            name="password"
         />
         <Button
             classname="w-full bg-blue-500"
